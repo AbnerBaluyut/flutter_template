@@ -3,8 +3,8 @@ import 'package:my_flutter_project/common/app_routes.dart';
 import 'package:my_flutter_project/data/models/source/source.dart';
 import 'package:my_flutter_project/screens/home_module/controller/home_controller.dart';
 import 'package:get/get.dart';
-import 'package:my_flutter_project/customs/snackbar/custom_drawer.dart';
-import 'package:my_flutter_project/customs/drawer/custom_snackbar.dart';
+import 'package:my_flutter_project/customs/drawer/custom_drawer.dart';
+import 'package:my_flutter_project/customs/snackbar/custom_snackbar.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class HomePage extends StatelessWidget {

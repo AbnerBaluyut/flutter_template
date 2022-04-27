@@ -3,7 +3,7 @@ import 'package:get_storage/get_storage.dart';
 import 'package:my_flutter_project/common/keys.dart';
 import 'package:my_flutter_project/data/models/article/article.dart';
 import 'package:my_flutter_project/data/repositories/home_repository/home_repository.dart';
-import 'package:my_flutter_project/customs/drawer/custom_snackbar.dart';
+import 'package:my_flutter_project/customs/snackbar/custom_snackbar.dart';
 
 class HomeController extends GetxController {
 

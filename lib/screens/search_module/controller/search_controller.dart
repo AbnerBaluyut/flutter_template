@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:my_flutter_project/customs/drawer/custom_snackbar.dart';
+import 'package:my_flutter_project/customs/snackbar/custom_snackbar.dart';
 import 'package:my_flutter_project/data/models/article/article.dart';
 import 'package:my_flutter_project/data/repositories/search_repository/search_repository.dart';
 

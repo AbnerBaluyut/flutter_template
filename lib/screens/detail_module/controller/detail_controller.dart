@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:my_flutter_project/data/models/article/article.dart';
 import 'package:my_flutter_project/data/repositories/detail_repository/detail_repository.dart';
-import 'package:my_flutter_project/customs/drawer/custom_snackbar.dart';
+import 'package:my_flutter_project/customs/snackbar/custom_snackbar.dart';
 
 class DetailController extends GetxController {
 

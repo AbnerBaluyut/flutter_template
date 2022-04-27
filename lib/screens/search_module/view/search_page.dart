@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:my_flutter_project/common/app_routes.dart';
 import 'package:my_flutter_project/data/models/source/source.dart';
 import 'package:my_flutter_project/screens/search_module/controller/search_controller.dart';
-import 'package:my_flutter_project/customs/snackbar/custom_drawer.dart';
+import 'package:my_flutter_project/customs/drawer/custom_drawer.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SearchPage extends StatelessWidget {
