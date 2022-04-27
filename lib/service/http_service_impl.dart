@@ -37,7 +37,7 @@ class HttpServiceImpl implements HttpService {
     _dio = Dio(
       BaseOptions(
         baseUrl: Constants.baseUrl,
-        headers: {"X-Api-Key": Constants.apiKey},
+        // headers: {"X-Api-Key": Constants.apiKey},
         receiveDataWhenStatusError: true,
         connectTimeout: 60*1000,
         receiveTimeout: 60*1000
