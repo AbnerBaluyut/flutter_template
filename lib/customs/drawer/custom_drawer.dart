@@ -23,7 +23,7 @@ class CustomDrawer {
           ListTile(
             title: const Text("Top Headline"),
             onTap: () {
-              if (Get.currentRoute != Routes.homeRoute) Get.offAndToNamed(Routes.homeRoute);
+              if (Get.currentRoute != Routes.homeRoute) Get.offNamed(Routes.homeRoute);
               closeDrawer(key);
             },
             leading: const Icon(Icons.newspaper)
@@ -31,7 +31,7 @@ class CustomDrawer {
           ListTile(
             title: const Text("Search News"),
             onTap: () {
-              if (Get.currentRoute != Routes.searchRoute) Get.offAndToNamed(Routes.searchRoute);
+              if (Get.currentRoute != Routes.searchRoute) Get.offNamed(Routes.searchRoute);
               closeDrawer(key);
             },
             leading: const Icon(Icons.search),
